@@ -1,1 +1,281 @@
 /* ini css */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    border: 1px black;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a9064;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin:0px;
+    display: flex;
+}
+
+.website-name {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #ddd;
+}
+
+.tomboljoinus {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 20px;
+    color: #6a9064;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    background-color: white;
+}
+
+
+ /* tampilanutama */
+
+
+.sectionhome{
+    min-height: 100vh;
+    background-color: #6a9064;
+    position: relative;
+}
+
+#logonya{
+    height: 300px;
+}
+
+.backgroundlogo{
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    font-size: 18px;
+    margin-bottom: 0rm;
+}
+
+.homepage{
+    margin: 0;
+    padding: 100px
+}
+
+.homepage h1{
+    font-size: 300%;
+    color: #ffffff;
+    margin: 0;
+}
+
+.homepage p{
+    font-size: 100%;
+    color: #ffffff;
+}
+
+.tomboljoinus2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 20px;
+    color: #6a9064;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px;
+    }
+
+
+/* apa itu adellion */
+
+
+.sectionabout{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    max-height: 400vh;
+    padding: 100px;
+    background-color: #e2e3fc;
+    gap:4rem;
+}
+
+.divaboutkiri{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6a9064;
+    align-items: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 500px; /* Set the same width as your images */
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .fotbar {
+    width: 500px;
+    display: block;
+  }
+  
+  /* Fade in and out animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+
+
+
+ /* merchandise */
+
+
+
+.bodymerch {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+ .merch-section {
+    background-color: #6a9064; /* Warna ungu */
+    padding: 10px 0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.merch-header {
+    color:  #e2e3fc;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.merch-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.merch-item {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.merch-item img {
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.merch-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/* join us */
+
+
+.main-join {
+    padding: 2rem;
+    background-color:  #e2e3fc;
+    color: #6a9064;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: #6a9064;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #6a9064;
+}
+
+#join-us {
+    margin-top: 2rem;
+}
+
+#join-result p {
+    margin: 0.5rem 0;
+}
+
+.section-join {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+@media screen body (min-width 900px) {
+    .navbar{
+        display: block;
+    }
+}
